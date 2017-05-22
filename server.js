@@ -27,6 +27,7 @@ app.get('/:input', (req, res) => {
             result.natural = naturalDate(date.getMonth(), date.getDate(), date.getFullYear());
         }
     }
+    res.setHeader('Content-Type', 'application/json');
     res.end(JSON.stringify(result));
 });
 

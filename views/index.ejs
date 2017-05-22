@@ -3,19 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>FCC-API - Timestamp instructions</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h2>FCC - API Projects - Timestamp Microservice by rlisboars</h2>
-        User Stories:
-        <ul>
-            <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp
-                 or a natural language date (example: January 1, 2016)</li>
-            <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
-            <li>If it does not contain a date or Unix timestamp, it returns null for those properties..</li>
-        </ul>
-        <h3>Example Usage:</h3>
-        <p><%= url %>/May%2022,%202017</p>
-        <p><%= url %>/1495422000000</p>
+        <div class="main">
+            <h2>FCC - API Projects - Timestamp Microservice</h2>
+            <h3>User Stories:</h3>
+            <ul>
+                <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp
+                    or a natural language date (example: January 1, 2016)</li>
+                <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+                <li>If it does not contain a date or Unix timestamp, it returns null for those properties..</li>
+            </ul>
+            <h3>Example Usage:</h3>
+            <ul>
+                <li><a href="<%= url %>/May%2022,%202017" target="_blank"><%= url %>/May%2022,%202017</a></li>
+                <li><a href="<%= url %>/1495422000000" target="_blank"><%= url %>/1495422000000</a></li>
+            </ul>
+            <footer>by <a href="https://github.com/rlisboars/" target="_blank">rlisboars</a></footer>
+        </div>
+        
     </body>
 </html>
