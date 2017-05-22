@@ -7,5 +7,5 @@ API project required for the Back End Development Certification of freeCodeCamp(
 * If it does not contain a date or Unix timestamp, it returns null for those properties..
 
 **Example Usage:**
-* http://rlisboars-api-timestamp.herokuapp.com/May%2022,%202017(http://rlisboars-api-timestamp.herokuapp.com/May%2022,%202017)
-* http://rlisboars-api-timestamp.herokuapp.com/1495422000000(http://rlisboars-api-timestamp.herokuapp.com/1495422000000)
+* http://rlisboars-api-timestamp.herokuapp.com/May%2022,%202017 
+* http://rlisboars-api-timestamp.herokuapp.com/1495422000000
